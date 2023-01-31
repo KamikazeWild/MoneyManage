@@ -3,7 +3,7 @@ const TransactionHistory = () => {
 		<div className="inc-exp-container">
 			<div>
 				<h4>Income</h4>
-				<p id="money-plus" class="money plus">
+				<p id="money-plus" className="money plus">
 					+$0.00
 				</p>
 			</div>
