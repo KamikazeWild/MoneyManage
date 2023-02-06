@@ -7,7 +7,7 @@ const TransactionsList = () => {
 
 	return (
 		<div>
-			<h2>History</h2>
+			<h2>All Transactions</h2>
 			<ul className="list">
 				{transactions.map((transaction) => (
 					<Transaction key={transaction.id} transaction={transaction} />
